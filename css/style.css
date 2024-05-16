@@ -1,0 +1,1552 @@
+/**reset**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/**header**/
+header {
+    /* Fondo gradiente para el encabezado */
+    background: rgb(36, 6, 68);
+    background: linear-gradient(90deg, rgba(36, 6, 68, 1) 4%, rgba(186, 65, 182, 1) 36%, rgba(186, 65, 182, 1) 44%, rgba(59, 30, 209, 1) 69%, rgba(51, 23, 127, 1) 81%, rgba(36, 6, 68, 1) 89%);
+    /* Altura del encabezado */
+    height: 23vh;
+    /* Posicionamiento fijo en la parte superior */
+    position: sticky;
+    padding: 0;
+    z-index: 1000;
+    top: 0;
+    /* Flexbox para alinear los elementos */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+/** Estilos para los títulos **/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Kanit", sans-serif;
+}
+
+/** Estilos para los enlaces */
+a {
+    text-decoration: none;
+}
+
+/** Estilos para párrafos **/
+p {
+    line-height: 1.5;
+    font-family: "Oswald", sans-serif;
+}
+
+/** Estilos para los elementos de navegación en el encabezado **/
+header nav li {
+    display: inline-block;
+    margin-bottom: -50px;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-family: "Kanit", sans-serif;
+    margin: 8px;
+}
+
+
+.links__dePaginas:hover {
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+/** Estilos para la imagen del logo en la barra de navegación **/
+header nav img {
+    border-radius: 100%;
+    width: 155px;
+    height: 155px;
+}
+
+/** Estilos para los logos y contactos en la barra de navegación **/
+.logosYcontactosNav {
+    display: flex;
+    /* Cambio de block a flex */
+    justify-content: center;
+    /* Centra horizontalmente los elementos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    justify-content: space-between;
+    margin-left: -400px;
+    margin-right: -400px;
+}
+
+/** Estilos para la imagen del logo de "Iniciar sesión" **/
+.logoIniciar img {
+    width: 50px;
+    height: 50px;
+    max-width: 100px;
+}
+
+.contactos img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/**main**/
+
+
+/* Estilos generales del cuerpo principal */
+main {
+    /* Fondo gradiente*/
+    background: rgb(21, 15, 32);
+    background: linear-gradient(90deg, rgba(21, 15, 32, 1) 12%, rgba(73, 46, 108, 1) 33%, rgba(52, 33, 77, 1) 54%, rgba(21, 15, 32, 1) 90%);
+    color: white;
+}
+
+
+/* Estilos de la sección hero */
+.hero {
+    /* Configuración del tamaño y comportamiento del fondo */
+    width: 100%;
+    height: 105vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    /* Alineación del contenido */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* Estilo para aumentar el tamaño de las flechas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+#carouselExampleDark {
+    max-height: 560px;
+    width: 100%;
+    /* Establece la altura máxima del carrusel */
+}
+
+/* Estilos específicos para los títulos dentro del carrusel */
+.carousel-caption h2 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-weight: 900;
+    filter: drop-shadow(6px 9px 14px #000000);
+}
+
+.carousel-caption h3,
+h4 {
+    color: #ffffff;
+    /* Estilos específicos para el título */
+    font-size: 50px;
+    /* Tamaño de fuente del título */
+    margin-bottom: 160px;
+    font-weight: 900;
+    /* Peso de la fuente del título */
+    filter: drop-shadow(6px 9px 14px #000000);
+
+}
+
+.carousel-caption p {
+    /* Estilos específicos para el texto descriptivo */
+    color: #ffffff;
+    /* Estilos específicos para el título */
+    font-size: 50px;
+    /* Tamaño de fuente del título */
+    margin-bottom: 150px;
+    font-weight: 900;
+    /* Peso de la fuente del título */
+    line-height: 1;
+    filter: drop-shadow(7px8 px 12px #000000);
+}
+
+
+
+.hero h1 {
+    padding: 70px;
+    font-size: 100px;
+    font-weight: 700;
+
+}
+
+.hero p {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Kanit", sans-serif;
+}
+
+/*seccion 2 para presentacion de productos*/
+.section2 {
+    /* Configuración del fondo y visualización */
+    background-image: url(../images/laptop-1-laptops.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto cover;
+    height: auto;
+    /* Márgenes superior e inferior */
+    margin-top: 20vh;
+    margin-bottom: 25vh;
+    /* Visualización y transición */
+    display: block;
+    filter: drop-shadow(6px 8px 15px black);
+    opacity: 1;
+    transition: 1s;
+}
+
+
+.section2:hover {
+    transform: translateX(5px);
+
+}
+
+/*textos sobre imagen*/
+
+.textoSobreImagen {
+    text-align: center;
+}
+
+.textoSobreImagen h2 {
+    margin-left: 37rem;
+    line-height: 2;
+    font-size: 39px;
+    font-weight: 700;
+    margin-top: 10rem;
+    filter: drop-shadow(6px 8px 15px black);
+    color: white;
+}
+
+.textoSobreImagen p {
+    margin-right: 44rem;
+    white-space: pre-line;
+    line-height: 3;
+    font-size: 50px;
+    font-weight: 700;
+    filter: drop-shadow(6px 8px 15px black);
+    color: white;
+}
+
+/*presentacion de productos*/
+/* Estilos para las tarjetas de productos */
+.presentacionProductos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Dimensiones y configuración del fondo */
+.tarjeta1 {
+    width: 425px;
+    height: 600px;
+    background-image: url(../images/gabiente-para-section3.png);
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    filter: drop-shadow(6px 8px 14px #000000);
+    transition: transform 0.20s;
+    margin-bottom: 50px;
+}
+
+.tarjeta1 a {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+
+/* Efecto de aumento al pasar el mouse sobre las tarjetas */
+.tarjeta1:hover {
+    transform: scale(1.1)
+}
+
+.tarjeta2 {
+    width: 350px;
+    height: 525px;
+    background-image: url(../images/laptop-para-galeria.png);
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    filter: drop-shadow(6px 8px 14px #000000);
+    transition: transform 0.20s;
+}
+
+.tarjeta2 a {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+
+/* Efecto de aumento al pasar el mouse sobre las tarjetas */
+.tarjeta2:hover {
+    transform: scale(1.1);
+}
+
+.tarjeta3 {
+    width: 358px;
+    height: 537px;
+    background-image: url(../images/imagen-para-accecsorios-section3.png);
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    filter: drop-shadow(6px 8px 14px black);
+    /* Sombra para la tarjeta */
+    transition: transform 0.20s;
+}
+
+.tarjeta3 a {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+
+/* Efecto de aumento al pasar el mouse sobre las tarjetas */
+.tarjeta3:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos del contenido dentro de las tarjetas */
+.contenido {
+    padding: 20px;
+    filter: drop-shadow(6px 8px 14px black);
+    /* Sombra para el texto */
+    text-align: center;
+    font-size: 25px;
+}
+
+/*/ Dimensiones y configuración del fondo */
+
+/** edicion nosotrospaginassec**/
+
+/**main section**/
+
+/*herosection*/
+/* Estilos para la sección hero de Nosotros */
+.nosotrosHeroSection {
+    background-image: url(../images/imagen-nosotros.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(1px 1px 100px black);
+}
+/* Estilos para el título principal en la sección hero */
+.nosotrosHeroSection h1 {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Kanit", sans-serif;
+    margin-left: 70px;
+    margin-bottom: -150px;
+}
+/* Estilos para el subtítulo en la sección hero */
+.nosotrosHeroSection h2 {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Kanit", sans-serif;
+    margin-left: 50px;
+    padding: 200px;
+}
+
+/*imagenes y descripcion segunda section luego del herosection */
+/* Estilos para la sección Acerca de Nosotros */
+.acercaDeNosotros {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos para el párrafo en la sección Acerca de Nosotros */
+.acercaDeNosotros p {
+    font-size: 20px;
+    font-weight: 300px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    margin-left: 20px;
+    border: 4px white solid;
+    padding: 7px;
+
+}
+
+/*mas informacion sobre kiire section 3*/
+/* Estilos para la sección Más sobre Nosotros */
+.masSobreNosotros {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    align-items: center;
+}
+/* Estilos para la imagen en la sección Más sobre Nosotros */
+.masSobreNosotros img {
+    order: 2;
+}
+/* Estilos para el párrafo en la sección Más sobre Nosotros */
+.masSobreNosotros p {
+    font-size: 20px;
+    font-weight: 300px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    margin-left: 20px;
+    border: 4px white solid;
+    margin: 15px;
+    padding: 3px;
+}
+/* Estilos para el título en la sección del mapa */
+.map h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    border: solid 4px rgb(255, 255, 255);
+    padding: 30px;
+}
+/* Estilos para el iframe del mapa */
+.map iframe {
+    margin-bottom: 40px;
+    height: 550px;
+    width: 750px;
+    border: black solid 5px;
+}
+
+/*section 4:ultima section. simulacion de locales de kiire*/
+/* Estilos para la sección de simulación de locales de Kiire */
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*edicion de pagina secundaria accesorios,gaming y laptops*/
+/*productos auriculares tarjetas de compra*/
+/* Estilos para la sección de presentación de accesorios e implementacion de grid */
+.presentacionDeAccesoriosHero {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0% auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+
+}
+/*implementacion de grid*/
+.presentacionDeAccesoriosHero__gaming {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0% auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+/* Estilos para la primera caja de la presentación de accesorios */
+.caja-primer-item {
+    grid-column-start: 1;
+    /*le indico la linea donde inicia*/
+    grid-column-end: 3;
+    /*le indico la linea donde termina*/
+}
+/* Estilos para el texto en la primera caja de la presentación de accesorios */
+.caja-primer-item h2 {
+    position: relative;
+    bottom: 33rem;
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+}
+/* Estilos para las cajas de la presentación de accesorios */
+.caja h2 {
+    position: relative;
+    bottom: 200px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 700;
+}
+/* Estilos para las imágenes en las cajas */
+.caja-primer-item img {
+    filter: drop-shadow(4px 5px 12px black);
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.caja-primer-item img:hover {
+    transform: translateX(20px);
+}
+
+
+
+.caja img {
+    filter: drop-shadow(4px 6px 12px rgb(0, 0, 0));
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+
+.caja img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para la sección de artículos */
+.articulos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    transition: all 300ms;
+}
+
+/* Estilos para los párrafos dentro de los artículos */
+.parrafo__articulos {
+    padding: 20px;
+}
+/* Estilos para los artículos */
+.articulos .article1,
+.article2,
+.article3,
+.article4,
+.article5,
+.article6,
+.article7 {
+    border: solid 3px rgb(21, 15, 32);
+    width: 305px;
+    height: 450px;
+    text-align: center;
+    background-color: #442c6c;
+    margin: 90px;
+    filter: drop-shadow(4px 6px 12px black);
+}
+
+/* Estilos al pasar el mouse sobre las imágenes de los artículos */
+.articulos img:hover {
+    opacity: 1;
+}
+
+.articulos img {
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.articulos img:hover {
+    transform: translateX(3.2px);
+}
+
+/* Estilos para los botones de compra */
+.botonComprarAc {
+    background-color: rgb(255, 253, 253);
+    color: black;
+    padding: 8px;
+}
+/* Estilos para los títulos de las secciones de accesorios */
+.h2-de-accesoriosProductos {
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    border: solid 4px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.articulos a {
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+}
+
+/*edicion de incio de sesion pagina secundaria*/
+/* Estilos para el fondo de la sección de inicio de sesión */
+.inicioSesion {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 2%, rgba(8, 130, 156, 1) 49%, rgba(2, 0, 36, 1) 99%);
+}
+/* Estilos para el fondo */
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Estilos para las imágenes dentro de las columnas */
+.col img {
+    width: 50px;
+
+}
+/* Estilos para el texto centrado */
+.text-center h3 {
+    font-family: "Kanit", sans-serif;
+}
+/* Estilos para los botones */
+.btn {
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn:hover {
+    background-color: #442c6c;
+}
+/* Estilos para el botón de inicio de sesión */
+.btn__iniciar {
+    color: #000000;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: #f1efef;
+    padding: 7px;
+}
+
+.btn__iniciar:hover {
+    background-color: #442c6c;
+}
+
+/* Estilos para la división al formulario */
+.divider-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #999;
+
+}
+
+.divider {
+    margin: 2rem 0;
+}
+
+/* Estilos para el enlace "olvidaste tu contraseña" */
+.input-group a:hover {
+    text-decoration: underline;
+}
+
+/**footer**/
+/** Estilos para el pie de página **/
+footer {
+    background: rgb(36, 6, 68);
+    background: linear-gradient(90deg, rgba(36, 6, 68, 1) 4%, rgba(186, 65, 182, 1) 36%, rgba(186, 65, 182, 1) 44%, rgba(59, 30, 209, 1) 69%, rgba(51, 23, 127, 1) 81%, rgba(36, 6, 68, 1) 89%);
+    padding-top: 50px;
+}
+/* Contenedor del pie de página */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+/* Contenido del pie de página - Logotipo */
+.footer-content1 img {
+    margin-top: -50px;
+}
+/* Contenido del pie de página - Texto */
+.footer-content1 p {
+    margin-top: -30px;
+}
+/* Estilos para las imágenes en el pie de página */
+.container img {
+    width: 250px;
+}
+/* Estilos para los títulos en el pie de página */
+.container h3,
+h4 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    color: #ffff
+}
+/* Estilos para las listas en el pie de página */
+.container li {
+    list-style: none;
+
+}
+
+/* Estilos para los enlaces en el pie de página */
+.container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Estilos para los párrafos en el pie de página */
+.container p {
+    color: #ffffff;
+}
+/* Barra inferior del pie de página para derechos de autor */
+.bottom-bar {
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #413f3f;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/**/footer**/
+
+/**responsive de paginas*/
+@media only screen and (max-width:1367px) {
+    /*pagina principal*/
+    /* Ajustes para la barra de navegación */
+    nav {
+        width: auto;
+    }
+    /* Ajustes para el logotipo en el encabezado */
+    .logoIniciar img {
+        margin-right: 30px;
+    }
+    /* Ajustes para las imágenes en el carrusel */
+    .carousel-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Ajustes para la sección 2 de pagina principal */
+    .section2 background-image {
+        max-width: 100%;
+    }
+    /* Ajustes para el cuerpo de pagina */
+    body {
+        background-size: contain;
+    }
+    /* Ajustes para los títulos sobre imágenes */
+    .textoSobreImagen h2 {
+        margin-top: -0.5em;
+    }
+    /* Media Query para páginas secundarias */
+    .presentacionDeAccesoriosHero img {
+        max-width: 100%;
+    }
+    /* Media Query para la página secundaria "Gaming" */
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+    }
+    /*media query para pagina laptops*/
+     /* Media Query para la página "Nosotros" */
+    .acercaDeNosotros {
+        padding: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Ajustes para las imágenes en la página "Nosotros" */
+    .acercaDeNosotros img {
+        width: 100%;
+    }
+    /* Ajustes para los párrafos en la página "Nosotros" */
+    .acercaDeNosotros p {
+        font-size: 20px;
+        font-weight: 300px;
+        width: 100%;
+
+    }
+    /* Ajustes para la sección "Más sobre nosotros" */
+    .masSobreNosotros {
+        padding: 200px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    /* Ajustes para las imágenes en la sección "Más sobre nosotros" */
+    .masSobreNosotros img {
+        width: 100%;
+    }
+    /* Ajustes para los párrafos en la sección "Más sobre nosotros */
+    .masSobreNosotros p {
+        font-size: 15px;
+        font-weight: 200px;
+        font-weight: 900;
+        margin-left: 20px;
+        margin: 15px;
+        padding: 3px;
+    }
+
+
+    /*media responsive para inicio de sesion*/
+    /* Ajustes para el contenido principal */
+    .inicioSesion {
+        padding-bottom: 170px;
+        padding: 50px;
+    }
+
+    /* Ajustes para el lado izquierdo */
+    .col-lg-6.position-relative.d-none.d-lg-block {
+        display: none;
+    }
+
+    /* Ajustes para el lado derecho */
+    .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Ajustes para el formulario */
+    .col.col-sm-6.col-lg-7.col-xl-6 {
+        max-width: 100%;
+    }
+
+    /* footer*/
+
+    footer {
+        text-align: center;
+    }
+
+    /*articulos*/
+    .articulos {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        transition: all 300ms;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+/**responsive monitores*/
+@media only screen and (max-width:1251px) {
+     /* Ajustes para el logotipo en el encabezado */
+    .logoIniciar img {
+        width: 50px;
+        height: 50px;
+        max-width: 100px;
+        margin-right: 80px;
+        display: block;
+    }
+    /* Ajustes para los títulos en el carrusel */
+    .carousel-caption h2 {
+
+        margin-bottom: 160px;
+    }
+    /* Ajustes para los párrafos en el carrusel */
+    .carousel-caption p {
+        margin-bottom: 160px;
+    }
+    /* Ajustes para las imágenes de contacto */
+    .contactos img {
+        width: 50px;
+        height: 50px;
+        margin-left: 80px;
+    }
+    /* Ajustes para el contenido */
+    .contenido {
+        padding: 10px;
+    }
+
+     /* media query para la página secundaria "Accesorios" */
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 140px;
+        left: 51%;
+        transform: translateX(-50%);
+    }
+
+    .presentacionDeAccesoriosHero img {
+        max-width: 100%;
+    }
+
+    /* Media Query para la página secundaria "Gaming" */
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+    }
+
+
+    .articulos {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        transition: all 300ms;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+/*medida para laptops*/
+@media only screen and (max-width:1223px) {
+    /*pagina principal*/
+    /* Ajustes para el logotipo en el encabezado */
+    .logoIniciar img {
+        margin-right: 160px;
+    }
+    /* Ajustes para los títulos en el carrusel */
+    .carousel-caption h2 {
+        margin-bottom: -50px;
+        font-size: 35px;
+    }
+    /* Ajustes para los párrafos en el carrusel */
+    .carousel-caption p {
+        margin-bottom: 200px;
+    }
+    /* Ajustes para las imágenes de contacto */
+    .contactos img {
+        margin-left: 160px;
+    }
+    /* Ajustes para el contenido */
+    .contenido {
+        padding: 10px;
+    }
+    /* Ajustes para la sección 2 pagina principal */
+    .section2 {
+        background-size: auto;
+        /* Restaura los márgenes en los lados */
+        margin-left: 5vw;
+        margin-right: 5vw;
+
+    }
+    /* Ajustes para los títulos en el carrusel */
+    .carousel-caption h2 {
+
+        margin-bottom: 170px;
+    }
+    /* Ajustes para los párrafos en el carrusel */
+    .carousel-caption p {
+        margin-bottom: 170px;
+    }
+    /* Ajustes para la presentación de productos */
+    .presentacionProductos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+    /* Ajustes para las imágenes en la presentación de productos */
+    .presentacionProductos img {
+        margin-top: 50px;
+    }
+
+    .presentacionProductos img {
+        flex: 1;
+        /* Las imágenes ocupan igualmente el espacio horizontalmente */
+    }
+
+    /* media query para la página secundaria "Accesorios" */
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 140px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+
+    .presentacionDeAccesoriosHero img {
+        max-width: 100%;
+    }
+
+    /* Media Query para la página secundaria "Gaming" */
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+    }
+
+    /*articulos*/
+
+    .articulos {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        transition: all 300ms;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/**media query para laptops*/
+@media only screen and (max-width:958px) {
+    .logoIniciar img {
+        margin-right: 280px;
+    }
+
+    .carousel-caption h2 {
+        margin-bottom: -1px;
+        font-size: 20px;
+        /* Ajusta el tamaño de fuente del título según sea necesario */
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+        /* Ajusta el tamaño de fuente del párrafo según sea necesario */
+    }
+
+
+
+    .contactos img {
+        margin-left: 280px;
+    }
+
+    /*media query responsive para pagina principal*/
+    .section2 {
+        background-size: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .presentacionProductos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .textoSobreImagen h2 {
+        margin-left: 5vw;
+        margin-right: 1vw;
+    }
+
+    .textoSobreImagen p {
+        line-height: 2.7;
+    }
+
+    .presentacionProductos section {
+
+        margin-bottom: 40px;
+    }
+
+    .presentacionProductos img {
+        flex: 1;
+        /* Las imágenes ocupan igualmente el espacio horizontalmente */
+    }
+
+    body {
+        background-size: contain;
+    }
+
+    /*media query responsive para pagina secundaria accesorios*/
+    .presentacionDeAccesoriosHero {
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero img {
+        max-width: 100%;
+
+    }
+
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 120px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+
+    /*media de paginas secundaria gaming*/
+
+    .presentacionDeAccesoriosHero__gaming {
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+
+    }
+
+    /*media de paginas secundaria laptops */
+
+
+    .articulos {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        transition: all 300ms;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /*media de paginas secundaria nosotros */
+}
+
+
+/**responsive para tablets*/
+@media only screen and (max-width:870px) {
+
+    /*media query responsive para pagina principal*/
+    /* Ajustes para la sección 2 */
+    .section2 {
+        background-size: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    /* Ajustes para el logotipo en el encabezado */
+    .logoIniciar img {
+        margin-right: 280px;
+    }
+    /* Ajustes para los títulos en el carrusel */
+    .carousel-caption h2 {
+        margin-bottom: -1px;
+        font-size: 20px;
+    }
+    /* Ajustes para los párrafos en el carrusel */
+    .carousel-caption p {
+        font-size: 15px;
+    }
+    /* Ajustes para la presentación de productos */
+    .presentacionProductos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+     /* Ajustes para los títulos sobre imágenes */
+    .textoSobreImagen h2 {
+        margin-left: 5vw;
+        margin-right: 1vw;
+    }
+    /* Ajustes para los párrafos sobre imágenes */
+    .textoSobreImagen p {
+        line-height: 2.7;
+    }
+    /* Ajustes para las secciones en la presentación de productos */
+    .presentacionProductos section {
+
+        margin-bottom: 40px;
+    }
+    /* Ajustes para las imágenes en la presentación de productos */
+    .presentacionProductos img {
+        flex: 1;
+        /* Las imágenes ocupan igualmente el espacio horizontalmente */
+    }
+
+    body {
+        background-size: contain;
+    }
+
+     /* Media Query para la página secundaria "Accesorios" */
+    .presentacionDeAccesoriosHero {
+        max-width: 100%;
+    }
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 120px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+    .presentacionDeAccesoriosHero img {
+        max-width: 100%;
+    }
+
+    /* Media Query para la página secundaria "Gaming" */
+    .presentacionDeAccesoriosHero__gaming {
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;}
+
+    /*media de paginas secundaria nosotros */
+}
+
+@media only screen and (max-width:868px) {
+    /*media query responsive para pagina principal*/
+    /* Ajustes para la sección 2 */
+    .section2 {
+        background-size: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    /* Ajustes para los títulos en el carrusel */
+    .carousel-caption h2 {
+        margin-bottom: -1px;
+        font-size: 20px;
+    }
+    /* Ajustes para los párrafos en el carrusel */
+    .carousel-caption p {
+        font-size: 15px;
+    }
+    /* Ajustes para la presentación de productos */
+    .presentacionProductos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    /* Ajustes para los títulos sobre imágenes */
+    .textoSobreImagen h2 {
+        margin-left: 4.5vw;
+
+    }
+/* Ajustes para los párrafos sobre imágenes */
+    .textoSobreImagen p {
+        line-height: 2.3;
+    }
+    /* Ajustes para las secciones en la presentación de productos */
+    .presentacionProductos section {
+        margin-bottom: 40px;
+    }
+     /* Ajustes para las imágenes en la presentación de productos */
+    .presentacionProductos img {
+        flex: 1;
+        /* Las imágenes ocupan igualmente el espacio horizontalmente */
+    }
+
+     /* Media Query para la página secundaria "Accesorios" */
+    .presentacionDeAccesoriosHero {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 170px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+
+    /* Media Query para la página secundaria "Gaming" */
+    .presentacionDeAccesoriosHero__gaming {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero__gaming__textoSobreImagen {
+        font-weight: 600;
+        margin-top: 200px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+
+
+    /*media de paginas secundaria nosotros */
+
+}
+
+/**media query para dispositivos moviles*/
+@media only screen and (max-width:720px) {
+    /*menu hamburguesa*/
+    /* Ajustes para el menú hamburguesa */
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    /* Estilo para el fondo del menú */
+    .collapse.navbar-collapse {
+        background-color: #ae1c98;
+        padding: 10px;
+    }
+    /* Estilo para los enlaces del menú */
+    .navbar-nav .nav-item .nav-link {
+        color: black;
+        font-size: 18px;
+    }
+    /*/menu hamburguesa*/
+
+    /* Ajustes para la sección 2 */
+    .section2 {
+        background-size: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+     /* Ajustes para los títulos en el carrusel */
+    .carousel-caption h2 {
+        font-size: 16px; 
+        margin-bottom: 0; 
+    }
+      /* Ajustes para los párrafos en el carrusel */
+    .carousel-caption p {
+        font-size: 14px; 
+    }
+    /* Ajustes para la presentación de productos */
+    .presentacionProductos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+     /* Ajustes para los títulos sobre imágenes */
+    .textoSobreImagen h2 {
+        margin-left: 5vw;
+        margin-right: 1vw;
+        font-size: 35px;
+    }
+    /* Ajustes para los párrafos sobre imágenes */
+    .textoSobreImagen p {
+        line-height: 3;
+        font-size: 40px;
+
+    }
+    /* Ajustes para las secciones en la presentación de productos */
+    .presentacionProductos section {
+        margin-bottom: 40px;
+    }
+    /* Ajustes para las imágenes en la presentación de productos */
+    .presentacionProductos img {
+        flex: 1;
+        /* Las imágenes ocupan igualmente el espacio horizontalmente */
+    }
+
+    /*media query pagina secundaria accesorios*/
+    .presentacionDeAccesoriosHero {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Media Query para la página secundaria "Gaming" */
+    .presentacionDeAccesoriosHero__gaming {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    /* Ajustes para las imágenes en "Gaming" */
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+    }
+    /* Ajustes para los títulos sobre imágenes en "Gaming" */
+    .presentacionDeAccesoriosHero__gaming__textoSobreImagen {
+        font-weight: 600;
+        margin-top: 200px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+
+    /*media de paginas secundaria laptops */
+
+    /*media de paginas secundaria nosotros */
+
+    /*footer*/
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-content1 img {
+        max-width: 100px;
+    }
+
+}
+/** Media Query para dispositivos móviles pequeños **/
+@media only screen and (max-width:550px) {
+
+    /*menu hamburguesa*/
+    /* Ajustes para el menú hamburguesa */
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    /* Estilo para el fondo del menú */
+    .collapse.navbar-collapse {
+        background-color: #ae1c98;
+        padding: 10px;
+    }
+
+    /* Estilo para los enlaces del menú */
+    .navbar-nav .nav-item .nav-link {
+        color: black;
+        font-size: 18px;
+    }
+    /*/menu hamburguesa*/
+    /* Ajustes para la sección 2 pagina principal */
+    .section2 {
+        background-size: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    /* Ajustes para la presentación de productos */
+    .presentacionProductos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    /* Ajustes para las tarjetas en la presentación de productos */
+    .tarjeta1,
+    .tarjeta2,
+    .tarjeta3 {
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    /* Ajustes para las secciones en la presentación de productos */
+    .presentacionProductos section {
+        margin-bottom: 40px;
+    }
+    /* Ajustes para las imágenes en la presentación de productos */
+    .presentacionProductos img {
+        flex: 1;
+        /* Las imágenes ocupan igualmente el espacio horizontalmente */
+    }
+
+    /* Ajustes para los títulos sobre imágenes */
+    .textoSobreImagen h2 {
+        margin-left: 5vw;
+        margin-right: 1vw;
+        font-size: 30px;
+    }
+    /* Ajustes para los párrafos sobre imágenes */
+    .textoSobreImagen p {
+        line-height: 3;
+        font-size: 30px;
+
+    }
+
+    /* Media Query para la página secundaria "Accesorios" */
+    .presentacionDeAccesoriosHero {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /* Ajustes para los títulos sobre imágenes*/
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 280px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+     /* Media Query para página secundaria "Gaming" */
+    .presentacionDeAccesoriosHero__gaming {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+    }
+    /* Ajustes para los títulos sobre imágenes en Gaming */
+    .presentacionDeAccesoriosHero__gaming__textoSobreImagen {
+        font-weight: 500;
+        margin-top: 280px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+    /*media de paginas secundaria nosotros */
+
+    /*footer*/
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-content1 img {
+        max-width: 100px;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+    /*menu hamburguesa*/
+    /* Estilos para el menú hamburguesa */
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    /* Estilo para el fondo del menú */
+    .collapse.navbar-collapse {
+        background-color: #ae1c98;
+        padding: 10px;
+    }
+
+    /* Estilo para los enlaces del menú */
+    .navbar-nav .nav-item .nav-link {
+        color: black;
+        font-size: 18px;
+    }
+
+    /*/menu hamburguesa*/
+    /* Estilos para el contenido de la sección de texto sobre imagen */
+    .textoSobreImagen h2 {
+        margin-left: 5vw;
+        margin-right: 1vw;
+        font-size: 30px;
+    }
+
+    .textoSobreImagen p {
+        line-height: 3;
+        font-size: 30px;
+
+    }
+
+    /* Media query para la página secundaria de accesorios */
+    .presentacionDeAccesoriosHero {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 280px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 500;
+    }
+
+    /* Media query para la página secundaria de gaming */
+    .presentacionDeAccesoriosHero__gaming {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero__gaming img {
+        max-width: 100%;
+    }
+
+    .presentacionDeAccesoriosHero__gaming__textoSobreImagen {
+        font-weight: 500;
+        margin-top: 280px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+
+
+    /*media de paginas secundaria nosotros */
+
+    /*footer*/
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-content1 img {
+        max-width: 100px;
+    }
+
+    .footer-content p {
+        margin-bottom: 15px;
+        /* Añadir espacio debajo de los párrafos */
+    }
+
+    .footer-content1 img {
+        max-width: 80px;
+        /* Reducir el tamaño del logo */
+    }
+
+    .footer-content p {
+        margin-bottom: 15px;
+        /* Añadir espacio debajo de los párrafos */
+    }
+
+}
