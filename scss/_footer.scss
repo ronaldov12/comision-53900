@@ -1,0 +1,86 @@
+/**footer**/
+/** Estilos para el pie de página **/
+
+footer {
+    background: rgb(36, 6, 68);
+    background: linear-gradient(90deg, rgba(36, 6, 68, 1) 4%, rgba(186, 65, 182, 1) 36%, rgba(186, 65, 182, 1) 44%, rgba(59, 30, 209, 1) 69%, rgba(51, 23, 127, 1) 81%, rgba(36, 6, 68, 1) 89%);
+    padding-top: 50px;
+}
+
+/* Contenedor del pie de página */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Contenido del pie de página - Logotipo */
+
+.footer-content1 {
+    img {
+        margin-top: -50px;
+    }
+
+    p {
+        margin-top: -30px;
+    }
+}
+
+/* Contenido del pie de página - Texto */
+
+/* Estilos para las imágenes en el pie de página */
+
+.container {
+    img {
+        width: 250px;
+    }
+
+    h3 {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        color: $color-blanco;
+    }
+}
+
+/* Estilos para los títulos en el pie de página */
+
+h4 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    color: $color-blanco;
+}
+
+/* Estilos para las listas en el pie de página */
+
+.container {
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-blanco;
+    }
+
+    p {
+        color: $color-blanco;
+    }
+}
+
+/* Estilos para los enlaces en el pie de página */
+
+/* Estilos para los párrafos en el pie de página */
+
+/* Barra inferior del pie de página para derechos de autor */
+
+.bottom-bar {
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #413f3f;
+    color: $color-blanco;
+    padding: 20px;
+}
+

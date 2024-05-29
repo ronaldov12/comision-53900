@@ -1,0 +1,153 @@
+/*edicion de pagina secundaria accesorios,gaming y laptops*/
+/*productos auriculares tarjetas de compra*/
+/* Estilos para la sección de presentación de accesorios e implementacion de grid */
+
+.presentacionDeAccesoriosHero {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0% auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-right:7vw ;
+}
+
+/*implementacion de grid*/
+
+.presentacionDeAccesoriosHero__gaming {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0% auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+/* Estilos para la primera caja de la presentación de accesorios */
+
+.caja-primer-item {
+    grid-column-start: 1;
+
+    /*le indico la linea donde inicia*/
+    grid-column-end: 3;
+
+    /*le indico la linea donde termina*/
+
+    h2 {
+        position: relative;
+        bottom: 33rem;
+        color: $color-blanco;
+        font-size: 100px;
+        font-weight: 700;
+    }
+}
+
+/* Estilos para el texto en la primera caja de la presentación de accesorios */
+
+/* Estilos para las cajas de la presentación de accesorios */
+
+.caja h2 {
+    position: relative;
+    bottom: 200px;
+    color: $color-blanco;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Estilos para las imágenes en las cajas */
+
+.caja-primer-item img {
+    filter: drop-shadow(4px 5px 12px $color-negro);
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 2s;
+
+    &:hover {
+        transform: translateX(20px);
+    }
+}
+
+.caja img {
+    filter: drop-shadow(4px 6px 12px $color-negro(0, 0, 0));
+    transition: all 300ms;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* Estilos para la sección de artículos */
+
+.articulos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    transition: all 300ms;
+}
+
+/* Estilos para los párrafos dentro de los artículos */
+
+.parrafo__articulos {
+    padding: 20px;
+}
+
+/* Estilos para los artículos */
+
+.articulos .article1,
+.article2,
+.article3,
+.article4,
+.article5,
+.article6,
+.article7 {
+    border: solid 3px $color-violetaobscuros;
+    width: 305px;
+    height: 450px;
+    text-align: center;
+    background-color: $color-purpura;
+    margin: 90px;
+    filter: drop-shadow(4px 6px 12px $color-negro);
+}
+
+/* Estilos al pasar el mouse sobre las imágenes de los artículos */
+
+.articulos img {
+    &:hover {
+        opacity: 1;
+        transform: translateX(3.2px);
+    }
+
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+/* Estilos para los botones de compra */
+
+.botonComprarAc {
+    background-color: $color-blanco;
+    color: $color-negro;
+    padding: 8px;
+}
+
+/* Estilos para los títulos de las secciones de accesorios */
+
+.h2-de-accesoriosProductos {
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    border: solid 4px $color-blanco;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.articulos a {
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+}

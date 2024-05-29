@@ -1,0 +1,81 @@
+/*edicion de incio de sesion pagina secundaria*/
+/* Estilos para el fondo de la sección de inicio de sesión */
+
+.inicioSesion {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 2%, rgba(8, 130, 156, 1) 49%, rgba(2, 0, 36, 1) 99%);
+}
+
+/* Estilos para el fondo */
+
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para las imágenes dentro de las columnas */
+
+.col img {
+    width: 50px;
+}
+
+/* Estilos para el texto centrado */
+
+.text-center h3 {
+    font-family: "Kanit", sans-serif;
+}
+
+/* Estilos para los botones */
+
+.btn {
+    border-radius: 20px;
+    background-color: $color-blanco;
+    color: $color-negro;
+
+    &:hover {
+        background-color: $color-purpura;
+    }
+}
+
+/* Estilos para el botón de inicio de sesión */
+
+.btn__iniciar {
+    color: $color-negro;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: $color-blanco;
+    padding: 7px;
+
+    &:hover {
+        background-color: $color-purpura;
+    }
+}
+
+/* Estilos para la división al formulario */
+
+.divider-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #999;
+}
+
+.divider {
+    margin: 2rem 0;
+}
+
+/* Estilos para el enlace "olvidaste tu contraseña" */
+
+.input-group a:hover {
+    text-decoration: underline;
+}

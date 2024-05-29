@@ -1,0 +1,101 @@
+
+@mixin anclas{
+text-decoration: none;
+color: $color-negro;
+}
+header {
+	/* Fondo gradiente para el encabezado */
+	background: rgb(36, 6, 68);
+	background: linear-gradient(90deg, rgba(36, 6, 68, 1) 4%, rgba(186, 65, 182, 1) 36%, rgba(186, 65, 182, 1) 44%, rgba(59, 30, 209, 1) 69%, rgba(51, 23, 127, 1) 81%, rgba(36, 6, 68, 1) 89%);
+	
+	/* Altura del encabezado */
+	height: 23vh;
+
+	/* Posicionamiento fijo en la parte superior */
+	position: sticky;
+	padding: 0;
+	z-index: 1000;
+	top: 0;
+
+	/* Flexbox para alinear los elementos */
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+	nav {
+		li {
+			display: inline-block;
+			margin-bottom: -50px;
+		}
+
+		/* Estilos para la imagen del logo en la barra de navegación */
+		img {
+			border-radius: 100%;
+			width: 155px;
+			height: 155px;
+		}
+	}
+}
+
+/** Estilos para los títulos **/
+h1, h2, h3, h4, h5 {
+	font-family: "Kanit", sans-serif;
+}
+
+/** Estilos para los enlaces **/
+a {
+	@include anclas;
+}
+
+/** Estilos para párrafos **/
+p {
+	line-height: 1.5;
+	font-family: "Oswald", sans-serif;
+}
+
+.nav-link {
+	color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-family: "Kanit", sans-serif;
+    margin: 8px;
+	transition: 1ms;
+}
+
+.links__dePaginas {
+	&:hover {
+		background-color: $color-blanco;
+		padding: 4px;
+		border-radius: 10px;
+	}
+}
+
+.logosYcontactosNav {
+	display: flex;
+
+	/* Cambio de block a flex */
+	justify-content: center;
+
+	/* Centra horizontalmente los elementos */
+	align-items: center;
+
+	/* Centra verticalmente los elementos */
+	justify-content: space-between;
+	margin-left: -400px;
+	margin-right: -400px;
+}
+
+/** Estilos para la imagen del logo de "Iniciar sesión" **/
+.logoIniciar {
+	img {
+		width: 50px;
+		height: 50px;
+		max-width: 100px;
+	}
+}
+
+.contactos {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+}

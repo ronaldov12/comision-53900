@@ -5,6 +5,7 @@
     <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inicia sesión en Kiire y accede a tu cuenta para disfrutar de PC de última generación, soporte personalizado y ofertas exclusivas. Conéctate ahora y descubre todo lo que Kiire tiene para ofrecerte.">
     <!-- Icono de la pestaña -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,146 +13,168 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- Icono de la pestaña -->
     <link rel="icon" href="../images/kiire-icono.png">
-    <title>INICIAR SESION-KIIRE</title>
+    <title>Iniciar Sesión | Accede a tu Cuenta en Kiire</title>
 </head>
 
 <body>
     <header>
-
-        <nav>
-            <!--listas desordenadas-unordered lists--->
-            <ul>
-                <!--listas ordenadas-ordered lists-->
-                <div class="logosYcontactosNav">
-
-                    <li class="contactos"><a href="#contactos"><img src="../images/atencion-al-cliente.png"
-                                alt="atencion al al cliente"></a></li>
-
-                    <li class="logo"><a href="../index.html"><img src="../images/kiirelogo.png"
-                                alt="logo instagram"></a></li>
-
-                    <li class="logoIniciar"><a href="./iniciarsesion.html"><img src="../images/iniciarsesion.png"
-                                alt="iniciar sesion"></a></li>
-                </div>
-
-            </ul>
-        </nav>
-
+        <!--listas desordenadas-unordered lists--->
+        <!-- Barra de navegación -->
+        <ul>
+            <!--listas ordenadas-ordered lists-->
+            <!-- Elementos de la barra de navegación -->
+            <nav class="nav-bar navbar-expand-md">
+                <ul>
+                    <!-- Logos y enlaces -->
+                    <div class="logosYcontactosNav">
+                        <li class="contactos"><a href="#contactos"><img src="../images/atencion-al-cliente.png"
+                                    alt="atención al cliente de Kiire"></a></li>
+                        <li class="logo"><a href="../index.html"><img src="../images/kiirelogo.png"
+                                    alt="logo de kiire"></a>
+                        </li>
+                        <li class="logoIniciar"><a href="./iniciarsesion.html"><img src="../images/iniciarsesion.png"
+                                    alt="iniciar sesión en Kiire"></a></li>
+                    </div>
+                    <!-- Botón del menú hamburguesa -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+                        <span><i class='bx bx-menu' style='font-size: 35px;'></i>
+                        </span>
+                    </button>
+                    <!-- Contenido del menú -->
+                    <div class="collapse navbar-collapse" id="mi-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link links__dePaginas "
+                                    href="./accesorios.html">ACCESORIOS</a></li>
+                            <li class="nav-item"><a class="nav-link links__dePaginas" href="./gaming.html">GAMING</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link links__dePaginas" href="./laptop.html">LAPTOPS</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link links__dePaginas"
+                                    href="./nosotros.html">NOSOTROS</a></li>
+                        </ul>
+                    </div>
+            </nav>
     </header>
     <main>
 
-    <main class="inicioSesion">
-        <!-- lado izquierdo -->
-        <div class="row vh-100 g-88">
-            <div class="col-lg-6 position-relative d-none d-lg-block">
-                <div class="bg-holder" style="background-image: url(../images/imagen-iniciar-sesion.png);"></div>
-            </div>
-            <!--/lado izquierdo -->
+        <main class="inicioSesion">
+            <!-- lado izquierdo -->
+            <div class="row vh-100 g-88">
+                <div class="col-lg-6 position-relative d-none d-lg-block">
+                    <div class="bg-holder" style="background-image: url(../images/imagen-iniciar-sesion.webp);" alt="Imagen de fondo para la página de inicio de sesión de Kiire"></div>
+                </div>
+                <!--/lado izquierdo -->
 
-            <!-- lado derecho -->
-            <div class="col-lg-6">
-                <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sm-0">
-                    <div class="col col-sm-6 col-lg-7 col-xl-6">
+                <!-- lado derecho -->
+                <div class="col-lg-6">
+                    <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sm-0">
+                        <div class="col col-sm-6 col-lg-7 col-xl-6">
 
-                        <!-- logo -->
-                        <a href="#" class="d-flex justify-content-center mb-4">
-                            <img src="../images/iniciarsesion.png" alt="Iniciar Sesión">
-                        </a>
-                        <!--/ logo -->
-                        <div class="text-center mb-5">
-                            <h3 class="fw-bold">Iniciar Sesion</h3>
-                            <p class="text-secundary">ingresa a tu cuenta</p>
-                        </div>
-                        <!-- botones de inicio de sesion -->
-                        <button class="btn btn-outline-secundary w-100 mb-3">
-                            iniciar sesion con Google <i class='bx bxl-google text-danger me-1 fs-6'></i>
-                        </button>
-                        <button class="btn btn-outline-secundary w-100">
-                            iniciar sesion con Facebook <i class='bx bxl-facebook-circle text-primary  me-1 fs-6'></i>
-                        </button>
-                        <!--/ botones de inicio de sesion -->
+                            <!-- logo -->
+                            <a href="#" class="d-flex justify-content-center mb-4">
+                                <img src="../images/iniciarsesion.png" alt="Iniciar Sesión">
+                            </a>
+                            <!--/ logo -->
+                            <div class="text-center mb-5">
+                                <h3 class="fw-bold">Iniciar Sesion</h3>
+                                <p class="text-secundary">ingresa a tu cuenta</p>
+                            </div>
+                            <!-- botones de inicio de sesion -->
+                            <button class="btn btn-outline-secundary w-100 mb-3">
+                                iniciar sesion con Google <i class='bx bxl-google text-danger me-1 fs-6'></i>
+                            </button>
+                            <button class="btn btn-outline-secundary w-100">
+                                iniciar sesion con Facebook <i
+                                    class='bx bxl-facebook-circle text-primary  me-1 fs-6'></i>
+                            </button>
+                            <!--/ botones de inicio de sesion -->
 
-                        <!-- division aformulario -->
-                        <div class="position-relative">
-                            <hr class="text-secundary divider">
-                            <div class="divider-content-center">iniciar con cuenta</div>
-                        </div>
-                        <!--/ division a formulario -->
+                            <!-- division aformulario -->
+                            <div class="position-relative">
+                                <hr class="text-secundary divider">
+                                <div class="divider-content-center">iniciar con cuenta</div>
+                            </div>
+                            <!--/ division a formulario -->
 
-                        <!-- formulario -->
-                        <form action="#">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">
-                                    <i class='bx bx-user'></i>
-                                </span>
-                                <input type="text" class="form-control form-control-lg 
+                            <!-- formulario -->
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+                                        <i class='bx bx-user'></i>
+                                    </span>
+                                    <input type="text" class="form-control form-control-lg 
                                 fs-6" placeholder="nombre de usuario">
-                            </div>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">
-                                    <i class='bx bx-lock-alt'></i>
-                                </span>
-                                <input type="password" class="form-control form-control-lg 
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+                                        <i class='bx bx-lock-alt'></i>
+                                    </span>
+                                    <input type="password" class="form-control form-control-lg 
                                 fs-6" placeholder="contraseña">
-                            </div>
-                            <div class="input-group mb-3 d-flex justify-content-between">
-                                <div class="form'check">
-                                    <input type="checkbox" class="form-check-input" id="formCheck">
-                                    <label for="formCheck" class="form-check-label text-secundary"><small>no olvidar mi
-                                            cuenta</small></label>
                                 </div>
-                                <div>
-                                    <small><a href="#">olvidaste tu contraseña?</a></small>
+                                <div class="input-group mb-3 d-flex justify-content-between">
+                                    <div class="form'check">
+                                        <input type="checkbox" class="form-check-input" id="formCheck">
+                                        <label for="formCheck" class="form-check-label text-secundary"><small>no olvidar
+                                                mi
+                                                cuenta</small></label>
+                                    </div>
+                                    <div>
+                                        <small><a href="#">olvidaste tu contraseña?</a></small>
+                                    </div>
                                 </div>
+                                <button class="btn__iniciar btn-primary btn-lg w-100 mb-3">iniciar</button>
+                            </form>
+                            <!--/ formulario -->
+                            <div class="text-center">
+                                <small>No tienes una cuenta? <a href="#" class="fw-bold">crear cuenta</a></small>
                             </div>
-                            <button class="btn__iniciar btn-primary btn-lg w-100 mb-3">iniciar</button>
-                        </form>
-                        <!--/ formulario -->
-                        <div class="text-center">
-                            <small>No tienes una cuenta? <a href="#" class="fw-bold">crear cuenta</a></small>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--/ lado derecho -->
+                <!--/ lado derecho -->
 
-        </div>
-    </main>
+            </div>
+        </main>
 
-    <footer bg text-white id="contactos">
-        <div class="container">
-            <div class="footer-content1">
-                <a href="./index.html"><img src="../images/kiire-logo-footer.png" alt="kiire logo logo de empresa"></a>
-                <p>Email:kiire@gmail.com</p>
+        <footer bg text-white id="contactos">
+            <div class="container">
+                <div class="footer-content1">
+                    <a href="./index.html"><img src="../images/kiire-logo-footer.png"
+                            alt="Logo de Kiire en el pie de página"></a>
+                    <p>Email:kiire@gmail.com</p>
+                </div>
+                <div class="footer-content">
+                    <h4>explorar</h4>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./iniciarSesion.html">Iniciar Sesion</a></li>
+                    <li><a href="./accesorios.html">Accesorios</a></li>
+                    <li><a href="./gaming.html">Gaming</a></li>
+                    <li><a href="./laptop.html">Laptops</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                </div>
+                <div class="footer-content">
+                    <h3>Redes Sociales</h3>
+                    <p>contactos</p>
+                    <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i
+                                class='bx bxl-gmail'></i></a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"><i class='bx bxl-whatsapp-square'></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/?lang=es" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+                </div>
             </div>
-            <div class="footer-content">
-                <h4>explorar</h4>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./iniciarSesion.html">Iniciar Sesion</a></li>
-                <li><a href="./accesorios.html">Accesorios</a></li>
-                <li><a href="./gaming.html">Gaming</a></li>
-                <li><a href="./laptop.html">Laptops</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
+            <div class="bottom-bar">
+                <p>&copy; Kiire Company .All rights reserved</p>
             </div>
-            <div class="footer-content">
-                <h3>Redes Sociales</h3>
-                <p>contactos</p>
-                <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i
-                            class='bx bxl-gmail'></i></a></li>
-                <li><a href="https://web.whatsapp.com/" target="_blank"><i class='bx bxl-whatsapp-square'></i></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
-                <li><a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square'></i></a></li>
-                <li><a href="https://twitter.com/?lang=es" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-            </div>
-        </div>
-        <div class="bottom-bar">
-            <p>&copy; Kiire Company .All rights reserved</p>
-        </div>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

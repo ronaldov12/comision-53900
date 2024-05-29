@@ -1,0 +1,110 @@
+/** edicion nosotrospaginassec**/
+
+/**main section**/
+
+/*herosection*/
+/* Estilos para la sección hero de Nosotros */
+
+.nosotrosHeroSection {
+    background-image: url(../images/imagen-nosotros.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(1px 1px 100px $color-negro);
+    /* Estilos para el título principal en la sección hero */
+    h1 {
+        font-size: 100px;
+        font-weight: 700;
+        font-family: "Kanit", sans-serif;
+        margin-left: 70px;
+        margin-bottom: -150px;
+    }
+    
+    /* Estilos para el subtítulo en la sección hero */
+    h2 {
+        font-size: 100px;
+        font-weight: 700;
+        font-family: "Kanit", sans-serif;
+        margin-left: 50px;
+        padding: 200px;
+    }
+}
+
+/* Estilos para la sección Acerca de Nosotros */
+.acercaDeNosotros {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 20px;
+        font-weight: 300px;
+        color: $color-blanco;
+        font-family: "Oswald", sans-serif;
+        font-weight: 900;
+        margin-left: 20px;
+        border: 4px $color-blanco solid;
+        padding: 7px;
+    }
+}
+
+/* Estilos para el párrafo en la sección Acerca de Nosotros */
+
+/*mas informacion sobre kiire section 3*/
+/* Estilos para la sección Más sobre Nosotros */
+
+.masSobreNosotros {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    align-items: center;
+    /* Estilos para la imagen en la sección Más sobre Nosotros */
+    img {
+        order: 2;
+    }
+    /* Estilos para el párrafo en la sección Más sobre Nosotros */
+    p {
+        font-size: 20px;
+        font-weight: 300px;
+        color: $color-blanco;
+        font-family: "Oswald", sans-serif;
+        font-weight: 900;
+        margin-left: 20px;
+        border: 4px $color-blanco solid;
+        margin: 15px;
+        padding: 3px;
+    }
+}
+
+/*section 4:ultima section. simulacion de locales de kiire*/
+.map {
+    /* Estilos para el título en la sección del mapa */
+    h2 {
+        margin-bottom: 40px;
+        font-size: 40px;
+        font-weight: 800;
+        border: solid 4px $color-blanco;
+        padding: 30px;
+    }
+    /* Estilos para el iframe del mapa */
+    iframe {
+        margin-bottom: 40px;
+        height: 550px;
+        width: 750px;
+        border: $color-negro 5px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
