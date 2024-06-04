@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+html body {
+  overflow-x: hidden;
+}
+
 header {
   /* Fondo gradiente para el encabezado */
   background: rgb(36, 6, 68);
@@ -644,103 +651,43 @@ h4 {
   /* Ajustes para la barra de navegación */
   nav {
     width: auto;
+    align-items: center;
   }
   /* Ajustes para el logotipo en el encabezado */
   .logoIniciar img {
-    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+    max-width: 100px;
+    margin-right: 80px;
+    display: block;
   }
-  /* Ajustes para las imágenes en el carrusel */
-  .carousel-item img {
-    max-width: 100%;
-    height: auto;
+  /* Ajustes para los títulos en el carrusel */
+  .carousel-caption h2,
+  .carousel-caption p {
+    margin-bottom: 160px;
   }
-  /* Ajustes para la sección 2 de pagina principal */
-  .section2 background-image {
-    max-width: 100%;
+  /* Ajustes para los párrafos en el carrusel */
+  /* Ajustes para las imágenes de contacto */
+  .contactos img {
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
   }
-  /* Ajustes para el cuerpo de pagina */
-  body {
-    background-size: contain;
+  /* Ajustes para el contenido */
+  .contenido {
+    padding: 10px;
   }
-  /* Ajustes para los títulos sobre imágenes */
-  .textoSobreImagen h2 {
-    margin-top: -0.5em;
+  /* media query para la página secundaria "Accesorios" */
+  .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+    margin-top: 140px;
+    left: 51%;
+    transform: translateX(-50%);
   }
-  /* Media Query para páginas secundarias */
-  .presentacionDeAccesoriosHero img {
-    max-width: 100%;
-  }
-  .caja-primer-item img {
-    width: 100%;
-  }
-  /* Media Query para la página secundaria "Gaming" */
+  .presentacionDeAccesoriosHero img,
   .presentacionDeAccesoriosHero__gaming img {
     max-width: 100%;
   }
-  /*media query para pagina laptops*/
-  /* Media Query para la página "Nosotros" */
-  .acercaDeNosotros {
-    padding: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .acercaDeNosotros img {
-    width: 100%;
-  }
-  .acercaDeNosotros p {
-    font-size: 20px;
-    font-weight: 300px;
-    width: 100%;
-  }
-  /* Ajustes para las imágenes en la página "Nosotros" */
-  /* Ajustes para los párrafos en la página "Nosotros" */
-  /* Ajustes para la sección "Más sobre nosotros" */
-  .masSobreNosotros {
-    padding: 200px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    flex-direction: column;
-  }
-  .masSobreNosotros img {
-    width: 100%;
-  }
-  .masSobreNosotros p {
-    font-size: 15px;
-    font-weight: 200px;
-    font-weight: 900;
-    margin-left: 20px;
-    margin: 15px;
-    padding: 3px;
-  }
-  /* Ajustes para las imágenes en la sección "Más sobre nosotros" */
-  /* Ajustes para los párrafos en la sección "Más sobre nosotros */
-  /*media responsive para inicio de sesion*/
-  /* Ajustes para el contenido principal */
-  .inicioSesion {
-    padding-bottom: 170px;
-    padding: 50px;
-  }
-  /* Ajustes para el lado izquierdo */
-  .col-lg-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .col-lg-6.position-relative.d-none.d-lg-block {
-    display: none;
-  }
-  /* Ajustes para el lado derecho */
-  /* Ajustes para el formulario */
-  .col.col-sm-6.col-lg-7.col-xl-6 {
-    max-width: 100%;
-  }
-  /* footer*/
-  footer {
-    text-align: center;
-  }
-  /*articulos*/
+  /* Media Query para la página secundaria "Gaming" */
   .articulos {
     display: flex;
     justify-content: center;
@@ -1292,7 +1239,6 @@ h4 {
     margin-right: -50vw;
   }
 }
-/**media query para dispositivos moviles*/
 @media only screen and (max-width: 720px) {
   /*menu hamburguesa*/
   /* Ajustes para el menú hamburguesa */
@@ -1469,6 +1415,11 @@ h4 {
 @media only screen and (max-width: 550px) {
   /*menu hamburguesa*/
   /* Ajustes para el menú hamburguesa */
+  nav {
+    margin-right: 6.5vw;
+    text-align: center;
+    justify-content: center;
+  }
   .nav-bar {
     flex-direction: column;
   }

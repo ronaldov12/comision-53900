@@ -5,7 +5,8 @@
     <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Inicia sesión en Kiire y accede a tu cuenta para disfrutar de PC de última generación, soporte personalizado y ofertas exclusivas. Conéctate ahora y descubre todo lo que Kiire tiene para ofrecerte.">
+    <meta name="description"
+        content="Inicia sesión en Kiire y accede a tu cuenta para disfrutar de PC de última generación, soporte personalizado y ofertas exclusivas. Conéctate ahora y descubre todo lo que Kiire tiene para ofrecerte.">
     <!-- Icono de la pestaña -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -17,51 +18,50 @@
 </head>
 
 <body>
+    <!-- Encabezado de la pagina -->
+    <!-- Encabezado de la pagina -->
     <header>
-        <!--listas desordenadas-unordered lists--->
-        <!-- Barra de navegación -->
-        <ul>
-            <!--listas ordenadas-ordered lists-->
-            <!-- Elementos de la barra de navegación -->
-            <nav class="nav-bar navbar-expand-md">
-                <ul>
-                    <!-- Logos y enlaces -->
-                    <div class="logosYcontactosNav">
-                        <li class="contactos"><a href="#contactos"><img src="../images/atencion-al-cliente.png"
-                                    alt="atención al cliente de Kiire"></a></li>
-                        <li class="logo"><a href="../index.html"><img src="../images/kiirelogo.png"
-                                    alt="logo de kiire"></a>
+        <nav class="nav-bar navbar-expand-md">
+            <ul>
+                <!-- Logos y enlaces de contacto -->
+                <div class="logosYcontactosNav">
+                    <li class="contactos"><a href="#contactos"><img src="../images/atencion-al-cliente.png"
+                                alt="Atención al cliente de Kiire"></a></li>
+                    <li class="logo"><a href="../index.html"><img src="../images/kiirelogo.png" alt="Logo de Kiire"></a>
+                    </li>
+                    <li class="logoIniciar"><a href="./iniciarsesion.html"><img src="../images/iniciarsesion.png"
+                                alt="Iniciar sesión en Kiire"></a></li>
+                </div>
+                <!-- Botón de menú hamburguesa para dispositivos móviles -->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+                    <span><i class='bx bx-menu' style='font-size: 35px;'></i>
+                    </span>
+                </button>
+
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse" id="mi-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link links__dePaginas "
+                                href="./accesorios.html">ACCESORIOS</a>
                         </li>
-                        <li class="logoIniciar"><a href="./iniciarsesion.html"><img src="../images/iniciarsesion.png"
-                                    alt="iniciar sesión en Kiire"></a></li>
-                    </div>
-                    <!-- Botón del menú hamburguesa -->
-                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
-                        <span><i class='bx bx-menu' style='font-size: 35px;'></i>
-                        </span>
-                    </button>
-                    <!-- Contenido del menú -->
-                    <div class="collapse navbar-collapse" id="mi-menu">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link links__dePaginas "
-                                    href="./accesorios.html">ACCESORIOS</a></li>
-                            <li class="nav-item"><a class="nav-link links__dePaginas" href="./gaming.html">GAMING</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link links__dePaginas" href="./laptop.html">LAPTOPS</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link links__dePaginas"
-                                    href="./nosotros.html">NOSOTROS</a></li>
-                        </ul>
-                    </div>
-            </nav>
+                        <li class="nav-item"><a class="nav-link links__dePaginas" href="./gaming.html">GAMING</a></li>
+                        <li class="nav-item"><a class="nav-link links__dePaginas" href="./laptop.html">LAPTOPS</a></li>
+                        <li class="nav-item"><a class="nav-link links__dePaginas" href="./nosotros.html">NOSOTROS</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
     </header>
+    <!-- Cuerpo de pagina -->
+    <!-- Cuerpo de pagina -->
     <main>
 
         <main class="inicioSesion">
             <!-- lado izquierdo -->
             <div class="row vh-100 g-88">
                 <div class="col-lg-6 position-relative d-none d-lg-block">
-                    <div class="bg-holder" style="background-image: url(../images/imagen-iniciar-sesion.webp);" alt="Imagen de fondo para la página de inicio de sesión de Kiire"></div>
+                    <div class="bg-holder" style="background-image: url(../images/imagen-iniciar-sesion.webp);"
+                        alt="Imagen de fondo para la página de inicio de sesión de Kiire"></div>
                 </div>
                 <!--/lado izquierdo -->
 

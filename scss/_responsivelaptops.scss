@@ -1,0 +1,232 @@
+/**media query para laptops*/
+@media only screen and (max-width: 958px) {
+    .logoIniciar img {
+        margin-right: 280px;
+    }
+
+    .contactos img {
+        margin-left: 280px;
+    }
+
+    /*media query responsive para pagina principal*/
+
+    .section2 {
+        background-size: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /*edicion responsive de tarjetas*/
+
+    .presentacionProductos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 25vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjeta1 {
+        width: 90vw;
+        height: 90vw;
+        background-size: contain;
+
+        /* Asegura que la imagen de fondo no se salga */
+        background-repeat: no-repeat;
+
+        /* Evita que la imagen se repita */
+        overflow: hidden;
+        margin-left: 7vw;
+
+        a {
+            font-size: 55px;
+            margin-right: 32vw;
+        }
+    }
+
+    .tarjeta2 {
+        width: 80vw;
+        height: 80vw;
+        background-size: contain;
+
+        /* Asegura que la imagen de fondo no se salga */
+        background-repeat: no-repeat;
+
+        /* Evita que la imagen se repita */
+        overflow: hidden;
+        margin-right: -5vw;
+
+        a {
+            font-size: 40px;
+            margin-right: 24vw;
+        }
+    }
+
+    .tarjeta3 {
+        width: 80vw;
+        height: 80vw;
+        background-size: contain;
+
+        /* Asegura que la imagen de fondo no se salga */
+        background-repeat: no-repeat;
+
+        /* Evita que la imagen se repita */
+        overflow: hidden;
+        margin-right: -5vw;
+
+        a {
+            font-size: 40px;
+            margin-right: 26vw;
+        }
+    }
+
+    .textoSobreImagen {
+        h2 {
+            margin-left: 5vw;
+            margin-right: 1vw;
+        }
+
+        p {
+            line-height: 2.7;
+        }
+    }
+
+    .presentacionProductos {
+        section {
+            margin-bottom: 40px;
+        }
+
+        img {
+            flex: 1;
+
+            /* Las imágenes ocupan igualmente el espacio horizontalmente */
+        }
+    }
+
+    body {
+        background-size: contain;
+    }
+
+    /*media query responsive para pagina secundaria accesorios*/
+
+    .presentacionDeAccesoriosHero {
+        max-width: 100%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
+        margin-top: 120px;
+        left: 52%;
+        transform: translateX(-50%);
+    }
+
+    /*media de paginas secundaria gaming*/
+
+    .presentacionDeAccesoriosHero__gaming {
+        max-width: 100%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    /*media de paginas secundaria laptops */
+
+    .articulos {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        transition: all 300ms;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /** Estilos para la sección de hero de la página secundaria Nosotros */
+
+    .nosotrosHeroSection {
+        background-size: cover;
+
+        /* Cambiar el tamaño de la imagen para adaptarse a pantallas más pequeñas */
+        height: auto;
+
+        /* Ajustar la altura automáticamente */
+
+        h1 {
+            margin-top: 40vh;
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    /* Estilos para el título principal dentro de la sección de hero */
+
+    /* Estilos para la sección acerca de nosotros */
+
+    .acercaDeNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 15px;
+        }
+    }
+
+    /* Estilos para las imágenes dentro de la sección Acerca de nosotros */
+
+    /* Estilos para los párrafos dentro de la sección acerca de nosotros */
+
+    .masSobreNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+            /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 15px;
+        }
+    }
+
+    /* Estilos para las imagenes dentro de la seccion mas sobre nosotros */
+
+    /* Estilos para el parrafo dentro de la seccion mas sobre nosotros */
+
+    /* Estilos para mapa dentro de la sección locales */
+
+    .map {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-right: -50vw;
+    }
+}

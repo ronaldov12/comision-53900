@@ -4,7 +4,8 @@
 <head>
   <!-- Metadatos -->
   <meta charset="UTF-8">
-  <meta name="description" content="Explora la increíble selección de productos gaming de Kiire y lleva tu experiencia de juego al siguiente nivel. Encuentra los últimos lanzamientos de hardware, periféricos de alta gama y accesorios imprescindibles para gamers. ¡Descubre todo lo que necesitas para dominar el mundo virtual con Kiire!">
+  <meta name="description"
+    content="Explora la increíble selección de productos gaming de Kiire y lleva tu experiencia de juego al siguiente nivel. Encuentra los últimos lanzamientos de hardware, periféricos de alta gama y accesorios imprescindibles para gamers. ¡Descubre todo lo que necesitas para dominar el mundo virtual con Kiire!">
   <!-- Estilos -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,169 +19,173 @@
 </head>
 
 <body>
-  <header>
-    
-      <!--listas desordenadas-unordered lists--->
+   <!-- Encabezado de la pagina -->
+   <header>
+    <nav class="nav-bar navbar-expand-md">
       <ul>
-        <!--listas ordenadas-ordered lists-->
-        <!-- Elementos de la barra de navegación -->
-          <nav class="nav-bar navbar-expand-md">
-            <!-- Barra de navegación -->
-              <ul>
-                <!-- Logos y enlaces -->
-                <div class="logosYcontactosNav">
-                  <!-- Íconos y enlaces de contacto -->
-                      <li class="contactos"><a href="#contactos"><img src="../images/atencion-al-cliente.png" alt="atencion al cliente"></a></li>
-                      <li class="logo"><a href="../index.html"><img src="../images/kiirelogo.png" alt="logo de empresa"></a></li>
-                      <li class="logoIniciar"><a href="./iniciarsesion.html"><img src="../images/iniciarsesion.png" alt="iniciar sesion"></a></li>
-                </div>
-                <!-- Botón de menú hamburguesa -->
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
-                  <span><i class='bx bx-menu' style='font-size: 35px;'></i>
-                  </span>
-                </button>
-                <!-- Contenido del menú -->
-              <div class="collapse navbar-collapse" id="mi-menu">
-                  <!-- Elementos del menú -->
-                <ul class="navbar-nav">
-                  <li class="nav-item"><a class="nav-link links__dePaginas " href="./accesorios.html">ACCESORIOS</a></li>
-                  <li class="nav-item"><a class="nav-link links__dePaginas" href="./gaming.html">GAMING</a></li>
-                  <li class="nav-item"><a class="nav-link links__dePaginas" href="./laptop.html">LAPTOPS</a></li>
-                  <li class="nav-item"><a class="nav-link links__dePaginas" href="./nosotros.html">NOSOTROS</a></li>
-                </ul>
-                </div>
-          </nav>
+        <!-- Logos y enlaces de contacto -->
+        <div class="logosYcontactosNav">
+          <li class="contactos"><a href="#contactos"><img src="../images/atencion-al-cliente.png"
+                alt="Atención al cliente de Kiire"></a></li>
+          <li class="logo"><a href="../index.html"><img src="../images/kiirelogo.png" alt="Logo de Kiire"></a></li>
+          <li class="logoIniciar"><a href="./iniciarsesion.html"><img src="../images/iniciarsesion.png"
+                alt="Iniciar sesión en Kiire"></a></li>
+        </div>
+        <!-- Botón de menú hamburguesa para dispositivos móviles -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+          <span><i class='bx bx-menu' style='font-size: 35px;'></i>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mi-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link links__dePaginas " href="./accesorios.html">ACCESORIOS</a>
+            </li>
+            <li class="nav-item"><a class="nav-link links__dePaginas" href="./gaming.html">GAMING</a></li>
+            <li class="nav-item"><a class="nav-link links__dePaginas" href="./laptop.html">LAPTOPS</a></li>
+            <li class="nav-item"><a class="nav-link links__dePaginas" href="./nosotros.html">NOSOTROS</a></li>
+          </ul>
+        </div>
+    </nav>
   </header>
+  <!-- Cuerpo de pagina -->
   <main>
 
-  <main>
-    <!--section presentacion echa con grids-->
-    <!-- Sección de presentación de gaming -->
-    <section class="presentacionDeAccesoriosHero__gaming">
-      <!--cajas para grid-->
-      <div class="caja"><img src="../images/imagen-para-gaminggrids.png" alt="imagen estetica con texto Potencia">
-        <h2>POTENCIA</h2>
-      </div>
+    <main>
+      <!--section presentacion echa con grids-->
+      <!-- Sección de presentación de gaming -->
+      <section class="presentacionDeAccesoriosHero__gaming">
+        <!--cajas para grid-->
+        <div class="caja"><img src="../images/imagen-para-gaminggrids.png" alt="imagen estetica con texto Potencia">
+          <h2>POTENCIA</h2>
+        </div>
 
-      <div class="caja"><img src="../images/imagen-grid-gaming2.png" alt="imagen estetica con texto velocidad">
-        <h2>VELOCIDAD</h2>
-      </div>
+        <div class="caja"><img src="../images/imagen-grid-gaming2.png" alt="imagen estetica con texto velocidad">
+          <h2>VELOCIDAD</h2>
+        </div>
 
-      <div class="caja-primer-item"><img src="../images/kiire-gaming.webp" alt="imagen estetica con texto kiire gaming">
-      </div>
+        <div class="caja-primer-item"><img src="../images/kiire-gaming.webp"
+            alt="imagen estetica con texto kiire gaming">
+        </div>
 
 
-    </section>
+      </section>
       <!-- Sección de artículos de gama alta -->
-    <h2 class="h2-de-accesoriosProductos">GAMA ALTA</h2>
-    <section class="articulos">
+      <h2 class="h2-de-accesoriosProductos">GAMA ALTA</h2>
+      <section class="articulos">
 
-      <article class="article1">
-        <img src="../images/pc-gamer-ryzen-7-5700-6600xt-8gb-ram-3200mhz.png" alt="PC GAMER RYZEN 7 5700 6600XT 8GB RAM 3200MHZ">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos"> PC GAMER RYZEN 7 5700 6600XT 8GB RAM 3200MHZ</p>
-      </article>
+        <article class="article1">
+          <img src="../images/pc-gamer-ryzen-7-5700-6600xt-8gb-ram-3200mhz.png"
+            alt="PC GAMER RYZEN 7 5700 6600XT 8GB RAM 3200MHZ">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos"> PC GAMER RYZEN 7 5700 6600XT 8GB RAM 3200MHZ</p>
+        </article>
 
-      <article class="article2">
-        <img src="../images/pc-gamer-asus-amd-ryzen-9-7900x-32g-Ram-1tb-rtx-4090.png" alt="Pc Gamer Asus Amd Ryzen 9 7900x 32g Ram 1tb Rtx 4090">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">PC GAMER ASUS AMD RYZEN 9 7900X 32G RAM 1TB RTX 4090 </p>
-      </article>
+        <article class="article2">
+          <img src="../images/pc-gamer-asus-amd-ryzen-9-7900x-32g-Ram-1tb-rtx-4090.png"
+            alt="Pc Gamer Asus Amd Ryzen 9 7900x 32g Ram 1tb Rtx 4090">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">PC GAMER ASUS AMD RYZEN 9 7900X 32G RAM 1TB RTX 4090 </p>
+        </article>
 
-      <article class="article3">
-        <img src="../images/pc-armada-Intel-core-i7-1-tb-16gb-de-ram.png" alt="PC ARMADA INTEL CORE I7 1 TB 16GB DE RAM GRAFICOS HD NUEVAS">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">PC GAMER INTEL CORE I7 1 TB 16GB DE RAM GRAFICOS HD NUEVAS</p>
-      </article>
-    </section>
+        <article class="article3">
+          <img src="../images/pc-armada-Intel-core-i7-1-tb-16gb-de-ram.png"
+            alt="PC ARMADA INTEL CORE I7 1 TB 16GB DE RAM GRAFICOS HD NUEVAS">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">PC GAMER INTEL CORE I7 1 TB 16GB DE RAM GRAFICOS HD NUEVAS</p>
+        </article>
+      </section>
 
-    <!-- Sección de artículos de gama media -->
-    <h2 class="h2-de-accesoriosProductos">GAMA MEDIA</h2>
-    <section class="articulos">
+      <!-- Sección de artículos de gama media -->
+      <h2 class="h2-de-accesoriosProductos">GAMA MEDIA</h2>
+      <section class="articulos">
 
-      <article class="article1">
-        <img src="../images/pc-gamer-amd-ryzen-5-4600g-mother-b450m-a-16gb-ram-ssd-480gb-fu.png" alt="PC GAMER AMD RYZEN 5 4600G MOTHER B450M A 16GB RAM SSD 480GB FUENTE 550W">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">PC GAMER AMD RYZEN 5 4600G MOTHER B450M A 16GB RAM SSD 480GB FUENTE 550W</p>
-      </article>
+        <article class="article1">
+          <img src="../images/pc-gamer-amd-ryzen-5-4600g-mother-b450m-a-16gb-ram-ssd-480gb-fu.png"
+            alt="PC GAMER AMD RYZEN 5 4600G MOTHER B450M A 16GB RAM SSD 480GB FUENTE 550W">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">PC GAMER AMD RYZEN 5 4600G MOTHER B450M A 16GB RAM SSD 480GB FUENTE 550W</p>
+        </article>
 
-      <article class="article2">
-        <img src="../images/pc-ryzen-3-3200g-8gram-256gb-ssd-win10.png" alt="PC RYZEN 3 3200G 8GRAM 256GB SSD">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">PC RYZEN 3 3200G 8GRAM 256GB SSD</p>
-      </article>
+        <article class="article2">
+          <img src="../images/pc-ryzen-3-3200g-8gram-256gb-ssd-win10.png" alt="PC RYZEN 3 3200G 8GRAM 256GB SSD">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">PC RYZEN 3 3200G 8GRAM 256GB SSD</p>
+        </article>
 
-      <article class="article3">
-        <img src="../images/pc-gamer-intel-i3-16gb-ddr4-ram-ssd-1tb-rx-6600xt.png" alt="PC GAMER INTEL I3 16GB DDR4 RAM SSD 1TB RX 6600XT">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">PC GAMER INTEL I3 16GB DDR4 RAM SSD 1TB RX 6600XT</p>
-      </article>
+        <article class="article3">
+          <img src="../images/pc-gamer-intel-i3-16gb-ddr4-ram-ssd-1tb-rx-6600xt.png"
+            alt="PC GAMER INTEL I3 16GB DDR4 RAM SSD 1TB RX 6600XT">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">PC GAMER INTEL I3 16GB DDR4 RAM SSD 1TB RX 6600XT</p>
+        </article>
 
-    </section>
-    <!-- Sección de artículos de componentes -->
-    <h2 class="h2-de-accesoriosProductos">COMPONENTES</h2>
-    <section class="articulos">
+      </section>
+      <!-- Sección de artículos de componentes -->
+      <h2 class="h2-de-accesoriosProductos">COMPONENTES</h2>
+      <section class="articulos">
 
-      <article class="article1">
-        <img src="../images/componente-ryzen.png" alt="procesador ryzen 9">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">PROCESADOR RYZEN 9</p>
-      </article>
+        <article class="article1">
+          <img src="../images/componente-ryzen.png" alt="procesador ryzen 9">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">PROCESADOR RYZEN 9</p>
+        </article>
 
-      <article class="article2">
-        <img src="../images/motherboard-gigabyte s1700-h610ms2h-ddr4-box-m-ATX.jpg" alt="Motherboard Gigabyte S1700 H610M S2H DDR4 Box M-ATX">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">MOTHERBOARD GIGABYTE S1700 H610M S2H DDR4 BOX M-ATX</p>
-      </article>
+        <article class="article2">
+          <img src="../images/motherboard-gigabyte s1700-h610ms2h-ddr4-box-m-ATX.jpg"
+            alt="Motherboard Gigabyte S1700 H610M S2H DDR4 Box M-ATX">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">MOTHERBOARD GIGABYTE S1700 H610M S2H DDR4 BOX M-ATX</p>
+        </article>
 
-      <article class="article3">
-        <img src="../images/placa-de-video-msi-rtx-3070.png" alt="PLACA DE VIDEO MSI RTX 3070">
-        <a class="botonComprarAc" href="#">COMPRAR</a>
-        <p class="parrafo__articulos">PLACA DE VIDEO MSI RTX 3070</p>
-      </article>
+        <article class="article3">
+          <img src="../images/placa-de-video-msi-rtx-3070.png" alt="PLACA DE VIDEO MSI RTX 3070">
+          <a class="botonComprarAc" href="#">COMPRAR</a>
+          <p class="parrafo__articulos">PLACA DE VIDEO MSI RTX 3070</p>
+        </article>
 
-      </article>
+        </article>
 
-    </section>
+      </section>
 
 
 
-  </main>
+    </main>
 
-  <footer bg text-white id="contactos">
-    <div class="container">
+    <footer bg text-white id="contactos">
+      <div class="container">
         <div class="footer-content1">
-            <a href="./index.html"><img src="../images/kiire-logo-footer.png" alt="logo kiire logo de empresa"></a>
-            <p>Email:kiire@gmail.com</p>
+          <a href="./index.html"><img src="../images/kiire-logo-footer.png" alt="logo kiire logo de empresa"></a>
+          <p>Email:kiire@gmail.com</p>
         </div>
         <div class="footer-content">
-            <h4>explorar</h4>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./iniciarSesion.html">Iniciar Sesion</a></li>
-            <li><a href="./accesorios.html">Accesorios</a></li>
-            <li><a href="./gaming.html">Gaming</a></li>
-            <li><a href="./laptop.html">Laptops</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
+          <h4>explorar</h4>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./iniciarSesion.html">Iniciar Sesion</a></li>
+          <li><a href="./accesorios.html">Accesorios</a></li>
+          <li><a href="./gaming.html">Gaming</a></li>
+          <li><a href="./laptop.html">Laptops</a></li>
+          <li><a href="./nosotros.html">Nosotros</a></li>
         </div>
         <div class="footer-content">
-            <h3>Redes Sociales</h3>
-            <p>contactos</p>
-            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i
-                        class='bx bxl-gmail'></i></a></li>
-            <li><a href="https://web.whatsapp.com/" target="_blank"><i class='bx bxl-whatsapp-square'></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
-            <li><a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square'></i></a></li>
-            <li><a href="https://twitter.com/?lang=es" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+          <h3>Redes Sociales</h3>
+          <p>contactos</p>
+          <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i
+                class='bx bxl-gmail'></i></a></li>
+          <li><a href="https://web.whatsapp.com/" target="_blank"><i class='bx bxl-whatsapp-square'></i></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square'></i></a></li>
+          <li><a href="https://twitter.com/?lang=es" target="_blank"><i class='bx bxl-twitter'></i></a></li>
         </div>
-    </div>
-    <div class="bottom-bar">
+      </div>
+      <div class="bottom-bar">
         <p>&copy; Kiire Company .All rights reserved</p>
-    </div>
+      </div>
 
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
 
 </body>
 

@@ -3,6 +3,15 @@
 text-decoration: none;
 color: $color-negro;
 }
+
+html{
+	overflow-x: hidden;
+
+	body{
+		overflow-x: hidden;
+	}
+}
+
 header {
 	/* Fondo gradiente para el encabezado */
 	background: rgb(36, 6, 68);
