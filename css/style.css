@@ -696,6 +696,48 @@ h4 {
     flex-direction: column;
     align-items: center;
   }
+  /*responsive pagina secundaria nosotros*/
+  /* Estilos para la sección acerca de nosotros */
+  .acercaDeNosotros {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .acercaDeNosotros img {
+    min-width: 77vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 5vw;
+  }
+  .acercaDeNosotros p {
+    min-width: 70vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10vw;
+    font-size: 30px;
+  }
+  /* Estilos para los párrafos dentro de la sección acerca de nosotros */
+  .masSobreNosotros {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .masSobreNosotros img {
+    /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
+    min-width: 77vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 5vw;
+  }
+  .masSobreNosotros p {
+    min-width: 70vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10vw;
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 1251px) {
   /* Ajustes para el logotipo en el encabezado */
@@ -740,6 +782,48 @@ h4 {
     transition: all 300ms;
     flex-direction: column;
     align-items: center;
+  }
+  /*responsive pagina secundaria nosotros*/
+  /* Estilos para la sección acerca de nosotros */
+  .acercaDeNosotros {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .acercaDeNosotros img {
+    min-width: 77vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 5vw;
+  }
+  .acercaDeNosotros p {
+    min-width: 70vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10vw;
+    font-size: 30px;
+  }
+  /* Estilos para los párrafos dentro de la sección acerca de nosotros */
+  .masSobreNosotros {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .masSobreNosotros img {
+    /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
+    min-width: 77vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 5vw;
+  }
+  .masSobreNosotros p {
+    min-width: 70vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10vw;
+    font-size: 30px;
   }
 }
 /*medida para laptops*/
@@ -857,6 +941,48 @@ h4 {
     transition: all 300ms;
     flex-direction: column;
     align-items: center;
+  }
+  /*responsive pagina secundaria nosotros*/
+  /* Estilos para la sección acerca de nosotros */
+  .acercaDeNosotros {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .acercaDeNosotros img {
+    min-width: 77vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 5vw;
+  }
+  .acercaDeNosotros p {
+    min-width: 70vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10vw;
+    font-size: 30px;
+  }
+  /* Estilos para los párrafos dentro de la sección acerca de nosotros */
+  .masSobreNosotros {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .masSobreNosotros img {
+    /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
+    min-width: 77vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 5vw;
+  }
+  .masSobreNosotros p {
+    min-width: 70vw;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10vw;
+    font-size: 30px;
   }
 }
 /**media query para laptops*/
@@ -989,6 +1115,7 @@ h4 {
     max-width: 100%;
     width: 100%;
     margin-bottom: 20px;
+    flex-direction: column;
   }
   .acercaDeNosotros img {
     min-width: 77vw;
@@ -1009,6 +1136,7 @@ h4 {
     max-width: 100%;
     width: 100%;
     margin-bottom: 20px;
+    flex-direction: column;
   }
   .masSobreNosotros img {
     /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
@@ -1445,6 +1573,9 @@ h4 {
   }
   /*/menu hamburguesa*/
   /* Ajustes para la sección 2 pagina principal */
+  .hero {
+    margin-bottom: -46vh;
+  }
   .section2 {
     background-size: auto;
     margin-left: 5vw;
@@ -1459,12 +1590,49 @@ h4 {
     flex-direction: column;
   }
   /* Ajustes para las tarjetas en la presentación de productos */
-  .tarjeta1,
-  .tarjeta2,
-  .tarjeta3 {
-    margin: 0 auto;
-    max-width: 350px;
+  .tarjeta1 {
+    width: 110vw;
+    height: 110vw;
+    background-size: contain;
+    /* Asegura que la imagen de fondo no se salga */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    overflow: hidden;
+    margin-left: 2vw;
   }
+  .tarjeta1 a {
+    font-size: 40px;
+    margin-right: 35vw;
+  }
+  .tarjeta2 {
+    width: 100vw;
+    height: 100vw;
+    background-size: contain;
+    /* Asegura que la imagen de fondo no se salga */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    overflow: hidden;
+    margin-left: -7.5vw;
+  }
+  .tarjeta2 a {
+    font-size: 30px;
+    margin-right: 32vw;
+  }
+  .tarjeta3 {
+    width: 100vw;
+    height: 100vw;
+    background-size: contain;
+    /* Asegura que la imagen de fondo no se salga */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    overflow: hidden;
+    margin-left: -7.5vw;
+  }
+  .tarjeta3 a {
+    font-size: 30px;
+    margin-right: 35vw;
+  }
+  /*/edicion responsive de tarjetas para dispositivos pequeños/*/
   /* Ajustes para las secciones en la presentación de productos */
   .presentacionProductos section {
     margin-bottom: 40px;
@@ -1482,7 +1650,7 @@ h4 {
   }
   .textoSobreImagen p {
     line-height: 3;
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   /* Ajustes para los párrafos sobre imágenes */
   /* Media Query para la página secundaria "Accesorios" */
@@ -1490,12 +1658,6 @@ h4 {
     max-width: 100%;
     display: flex;
     flex-direction: column;
-  }
-  /* Ajustes para los títulos sobre imágenes*/
-  .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
-    margin-top: 280px;
-    left: 50%;
-    transform: translateX(-50%);
   }
   /* Media Query para página secundaria "Gaming" */
   .presentacionDeAccesoriosHero__gaming {
@@ -1505,13 +1667,6 @@ h4 {
   }
   .presentacionDeAccesoriosHero__gaming img {
     max-width: 100%;
-  }
-  /* Ajustes para los títulos sobre imágenes en Gaming */
-  .presentacionDeAccesoriosHero__gaming__textoSobreImagen {
-    font-weight: 500;
-    margin-top: 280px;
-    left: 52%;
-    transform: translateX(-50%);
   }
   /** Estilos para la sección de hero de la página secundaria Nosotros */
   .nosotrosHeroSection {
@@ -1533,6 +1688,7 @@ h4 {
     max-width: 100%;
     width: 100%;
     margin-bottom: 20px;
+    flex-direction: column;
   }
   .acercaDeNosotros img {
     min-width: 77vw;
@@ -1552,7 +1708,8 @@ h4 {
   .masSobreNosotros {
     max-width: 100%;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.1rem;
+    flex-direction: column;
   }
   .masSobreNosotros img {
     /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
@@ -1573,10 +1730,10 @@ h4 {
   /* Estilos para mapa dentro de la sección locales */
   .map {
     position: relative;
-    width: 90%;
+    width: 80%;
     height: 400px;
     overflow: hidden;
-    margin-right: -50vw;
+    margin-left: 10vw;
   }
   /*footer*/
   .footer-content {
@@ -1638,9 +1795,11 @@ h4 {
     background-repeat: no-repeat;
     /* Evita que la imagen se repita */
     overflow: hidden;
+    margin-left: 8vw;
   }
   .tarjeta1 a {
     font-size: 40px;
+    margin-right: 35vw;
   }
   .tarjeta2 {
     width: 100vw;
@@ -1650,11 +1809,11 @@ h4 {
     background-repeat: no-repeat;
     /* Evita que la imagen se repita */
     overflow: hidden;
-    margin-left: 8vw;
+    margin-left: -0.5vw;
   }
   .tarjeta2 a {
     font-size: 30px;
-    margin-right: 3vw;
+    margin-right: 32vw;
   }
   .tarjeta3 {
     width: 100vw;
@@ -1664,11 +1823,11 @@ h4 {
     background-repeat: no-repeat;
     /* Evita que la imagen se repita */
     overflow: hidden;
-    margin-left: 8vw;
+    margin-left: -0.5vw;
   }
   .tarjeta3 a {
     font-size: 30px;
-    margin-right: 6vw;
+    margin-right: 35vw;
   }
   /*/edicion responsive de tarjetas para dispositivos pequeños/*/
   /* Media query para la página secundaria de accesorios */
@@ -1755,10 +1914,10 @@ h4 {
   /* Estilos para mapa dentro de la sección locales */
   .map {
     position: relative;
-    width: 90%;
+    width: 80%;
     height: 400px;
     overflow: hidden;
-    margin-right: -50vw;
+    margin-left: 10vw;
   }
   /*footer*/
   /* Establece la disposición de los elementos del footer en columna */
@@ -1919,10 +2078,10 @@ h4 {
   /* Estilos para mapa dentro de la sección locales */
   .map {
     position: relative;
-    width: 90%;
+    width: 80%;
     height: 400px;
     overflow: hidden;
-    margin-right: -50vw;
+    margin-left: 10vw;
   }
   /*footer*/
   /* Establece la disposición de los elementos del footer en columna */
@@ -1969,6 +2128,9 @@ h4 {
     margin-bottom: 10px;
   }
   /*edicion responsive de atrjetas para dispositivos pequeños*/
+  .hero {
+    margin-bottom: -48vh;
+  }
   .presentacionProductos {
     display: flex;
     margin-left: -2vw;
@@ -2042,19 +2204,19 @@ h4 {
   .acercaDeNosotros {
     max-width: 100%;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .acercaDeNosotros img {
     min-width: 77vw;
     max-width: 100%;
     height: auto;
-    margin-right: 25vw;
+    margin-right: 13vw;
   }
   .acercaDeNosotros p {
     min-width: 70vw;
     max-width: 100%;
     height: auto;
-    margin-right: 32vw;
+    margin-right: 18vw;
     font-size: 11px;
   }
   /* Estilos para las imágenes dentro de la sección Acerca de nosotros */
@@ -2062,20 +2224,20 @@ h4 {
   .masSobreNosotros {
     max-width: 100%;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .masSobreNosotros img {
     /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
     min-width: 77vw;
     max-width: 100%;
     height: auto;
-    margin-right: 25vw;
+    margin-right: 15vw;
   }
   .masSobreNosotros p {
     min-width: 70vw;
     max-width: 100%;
     height: auto;
-    margin-right: 30vw;
+    margin-right: 18vw;
     font-size: 11px;
   }
   /* Estilos para las imagenes dentro de la seccion mas sobre nosotros */
@@ -2083,10 +2245,10 @@ h4 {
   /* Estilos para mapa dentro de la sección locales */
   .map {
     position: relative;
-    width: 90%;
+    width: 80%;
     height: 400px;
     overflow: hidden;
-    margin-right: -50vw;
+    margin-left: 10vw;
   }
   /*footer*/
   /* Establece la disposición de los elementos del footer en columna */
@@ -2247,10 +2409,10 @@ h4 {
   /* Estilos para mapa dentro de la sección locales */
   .map {
     position: relative;
-    width: 90%;
+    width: 80%;
     height: 400px;
     overflow: hidden;
-    margin-right: -50vw;
+    margin-left: 10vw;
   }
   /*footer*/
   /* Establece la disposición de los elementos del footer en columna */

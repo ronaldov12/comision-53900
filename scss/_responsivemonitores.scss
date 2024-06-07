@@ -69,6 +69,56 @@
         flex-direction: column;
         align-items: center;
     }
+
+      /*responsive pagina secundaria nosotros*/
+      /* Estilos para la sección acerca de nosotros */
+
+      .acercaDeNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+
+        img {
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 30px;
+        }
+    }
+
+    /* Estilos para los párrafos dentro de la sección acerca de nosotros */
+
+    .masSobreNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+
+        img {
+            /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 30px;
+        }
+    }
 }
 
 
@@ -132,6 +182,56 @@
         transition: all 300ms;
         flex-direction: column;
         align-items: center;
+    }
+
+      /*responsive pagina secundaria nosotros*/
+      /* Estilos para la sección acerca de nosotros */
+
+      .acercaDeNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+
+        img {
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 30px;
+        }
+    }
+
+    /* Estilos para los párrafos dentro de la sección acerca de nosotros */
+
+    .masSobreNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+
+        img {
+            /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 30px;
+        }
     }
 }
 
@@ -290,5 +390,55 @@
         transition: all 300ms;
         flex-direction: column;
         align-items: center;
+    }
+
+        /*responsive pagina secundaria nosotros*/
+      /* Estilos para la sección acerca de nosotros */
+
+    .acercaDeNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+
+        img {
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 30px;
+        }
+    }
+
+    /* Estilos para los párrafos dentro de la sección acerca de nosotros */
+
+    .masSobreNosotros {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+
+        img {
+            /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
+            min-width: 77vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 5vw;
+        }
+
+        p {
+            min-width: 70vw;
+            max-width: 100%;
+            height: auto;
+            margin-right: 10vw;
+            font-size: 30px;
+        }
     }
 }

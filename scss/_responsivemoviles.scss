@@ -43,6 +43,10 @@
     /*/menu hamburguesa*/
     /* Ajustes para la sección 2 pagina principal */
 
+    .hero{
+        margin-bottom: -46vh;
+    }
+
     .section2 {
         background-size: auto;
         margin-left: 5vw;
@@ -61,12 +65,61 @@
 
     /* Ajustes para las tarjetas en la presentación de productos */
 
-    .tarjeta1,
-    .tarjeta2,
-    .tarjeta3 {
-        margin: 0 auto;
-        max-width: 350px;
+    .tarjeta1 {
+        width: 110vw;
+        height: 110vw;
+        background-size: contain;
+
+        /* Asegura que la imagen de fondo no se salga */
+        background-repeat: no-repeat;
+
+        /* Evita que la imagen se repita */
+        overflow: hidden;
+        margin-left: 2vw;
+
+        a {
+            font-size: 40px;
+            margin-right: 35vw;
+        }
     }
+
+    .tarjeta2 {
+        width: 100vw;
+        height: 100vw;
+        background-size: contain;
+
+        /* Asegura que la imagen de fondo no se salga */
+        background-repeat: no-repeat;
+
+        /* Evita que la imagen se repita */
+        overflow: hidden;
+        margin-left: -7.500vw;
+
+        a {
+            font-size: 30px;
+            margin-right: 32vw;
+        }
+    }
+
+    .tarjeta3 {
+        width: 100vw;
+        height: 100vw;
+        background-size: contain;
+
+        /* Asegura que la imagen de fondo no se salga */
+        background-repeat: no-repeat;
+
+        /* Evita que la imagen se repita */
+        overflow: hidden;
+        margin-left: -7.500vw;
+
+        a {
+            font-size: 30px;
+            margin-right: 35vw;
+        }
+    }
+
+    /*/edicion responsive de tarjetas para dispositivos pequeños/*/
 
     /* Ajustes para las secciones en la presentación de productos */
 
@@ -95,7 +148,7 @@
 
         p {
             line-height: 3;
-            font-size: 30px;
+            font-size: 1.875rem;
         }
     }
 
@@ -109,13 +162,6 @@
         flex-direction: column;
     }
 
-    /* Ajustes para los títulos sobre imágenes*/
-
-    .presentacionDeAccesoriosHero__textoSobreImagen__eficacia {
-        margin-top: 280px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
 
     /* Media Query para página secundaria "Gaming" */
 
@@ -127,15 +173,6 @@
         img {
             max-width: 100%;
         }
-    }
-
-    /* Ajustes para los títulos sobre imágenes en Gaming */
-
-    .presentacionDeAccesoriosHero__gaming__textoSobreImagen {
-        font-weight: 500;
-        margin-top: 280px;
-        left: 52%;
-        transform: translateX(-50%);
     }
 
     /** Estilos para la sección de hero de la página secundaria Nosotros */
@@ -166,6 +203,7 @@
         max-width: 100%;
         width: 100%;
         margin-bottom: 20px;
+        flex-direction: column;
 
         img {
             min-width: 77vw;
@@ -190,7 +228,8 @@
     .masSobreNosotros {
         max-width: 100%;
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 1.10rem;
+        flex-direction: column;
 
         img {
             /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
@@ -217,10 +256,10 @@
 
     .map {
         position: relative;
-        width: 90%;
+        width: 80%;
         height: 400px;
         overflow: hidden;
-        margin-right: -50vw;
+        margin-left: 10vw;
     }
 
     /*footer*/
@@ -303,9 +342,11 @@
 
         /* Evita que la imagen se repita */
         overflow: hidden;
+        margin-left: 8vw;
 
         a {
             font-size: 40px;
+            margin-right: 35vw;
         }
     }
 
@@ -319,11 +360,11 @@
 
         /* Evita que la imagen se repita */
         overflow: hidden;
-        margin-left: 8vw;
+        margin-left: -0.500vw;
 
         a {
             font-size: 30px;
-            margin-right: 3vw;
+            margin-right: 32vw;
         }
     }
 
@@ -337,14 +378,14 @@
 
         /* Evita que la imagen se repita */
         overflow: hidden;
-        margin-left: 8vw;
+        margin-left: -0.500vw;
 
         a {
             font-size: 30px;
-            margin-right: 6vw;
+            margin-right: 35vw;
         }
     }
-
+    
     /*/edicion responsive de tarjetas para dispositivos pequeños/*/
 
     /* Media query para la página secundaria de accesorios */
@@ -458,10 +499,10 @@
 
     .map {
         position: relative;
-        width: 90%;
+        width: 80%;
         height: 400px;
         overflow: hidden;
-        margin-right: -50vw;
+        margin-left: 10vw;
     }
 
     /*footer*/
@@ -674,10 +715,10 @@
 
     .map {
         position: relative;
-        width: 90%;
+        width: 80%;
         height: 400px;
         overflow: hidden;
-        margin-right: -50vw;
+        margin-left: 10vw;
     }
 
     /*footer*/
@@ -739,6 +780,10 @@
     }
 
     /*edicion responsive de atrjetas para dispositivos pequeños*/
+
+    .hero{
+        margin-bottom: -48vh;
+    }
 
     .presentacionProductos {
         display: flex;
@@ -838,20 +883,20 @@
     .acercaDeNosotros {
         max-width: 100%;
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
 
         img {
             min-width: 77vw;
             max-width: 100%;
             height: auto;
-            margin-right: 25vw;
+            margin-right: 13vw;
         }
 
         p {
             min-width: 70vw;
             max-width: 100%;
             height: auto;
-            margin-right: 32vw;
+            margin-right: 18vw;
             font-size: 11px;
         }
     }
@@ -863,21 +908,21 @@
     .masSobreNosotros {
         max-width: 100%;
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
 
         img {
             /* Establece un tamaño mínimo para la imagen en dispositivos moviles */
             min-width: 77vw;
             max-width: 100%;
             height: auto;
-            margin-right: 25vw;
+            margin-right: 15vw;
         }
 
         p {
             min-width: 70vw;
             max-width: 100%;
             height: auto;
-            margin-right: 30vw;
+            margin-right: 18vw;
             font-size: 11px;
         }
     }
@@ -890,10 +935,10 @@
 
     .map {
         position: relative;
-        width: 90%;
+        width: 80%;
         height: 400px;
         overflow: hidden;
-        margin-right: -50vw;
+        margin-left: 10vw;
     }
 
     /*footer*/
@@ -1103,13 +1148,15 @@
 
     /* Estilos para mapa dentro de la sección locales */
 
+    
     .map {
         position: relative;
-        width: 90%;
+        width: 80%;
         height: 400px;
         overflow: hidden;
-        margin-right: -50vw;
+        margin-left: 10vw;
     }
+
 
     /*footer*/
     /* Establece la disposición de los elementos del footer en columna */
